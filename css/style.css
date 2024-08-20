@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Readex Pro", sans-serif;
+}
+.navbar-nav.me-auto{
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+.space-left-right{
+    padding: 0px 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 15px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: #000000;
+    font-family: "Fredoka", sans-serif;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+.spaceleft-right-10{
+    padding: 0px 10px;
+}
+.header-buttons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+.header-buttons ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+.header-buttons ul li a {
+    text-decoration: none;
+}
+.header-buttons ul li a i {
+    font-weight: 700;
+}
+.header-buttons ul li a span {
+    background-color: #ff6600;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 4px;
+    line-height: 12px;
+    border-radius: 50px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    position: relative;
+    left: -7px;
+    top: -7px;
+}
+.navbar-nav.me-auto{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.banner-section-wrapper{
+    background-color: #3AB787;
+    padding: 20px 0px 0px;
+    
+}
+.banner-image{
+    margin-bottom: -80px;
+}
+.banner-content h1{
+    font-family: "Fredoka", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.banner-content{
+    padding: 60px 0px;
+}
+.banner-content .nav-link{
+    border-radius: 0px;
+    border: 0px;
+    background-color: transparent !important;
+    font-family: "Fredoka", sans-serif;
+    color: #ffffff;
+}
+.banner-content .nav-link i{
+    font-style: normal;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid #ffffffff;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.banner-content .nav-link.active i{
+    background-color: #FFDA00;
+    border: 2px solid #000000;
+}
+.yellow-text{
+    background-color: #FFDA00;
+    padding: 20px 20px 35px 20px;
+    margin-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: -20px;
+}
+.yellow-text p{
+    font-size: 13px;
+    margin: 0px;
+}
+.yellow-text h6{
+    margin-bottom: 5px;
+}
+.tab-field{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.tab-field .form-label{
+    margin-bottom: 0px;
+    width: 140px;
+    color: #000000;
+}
+.form-check-inline label{
+    color: #000000;
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
