@@ -207,6 +207,7 @@ body{
 }
 .providing-superior-pet-section{
     position: relative;
+    padding-bottom: 100px;
 }
 .providing-superior-pet-section::before{
     content: "";
@@ -215,6 +216,51 @@ body{
     background-image: url(../images/wings.png);
     position: absolute;
     top: -80px;
+}
+.pet-service{
+    text-align: center;
+}
+.pet-service h6{
+    font-size: 30px;
+    font-family: "Fredoka", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.providing-superior-pet-section .section-content h3{
+    margin-bottom: 100px;
+}
+.Why-rely-image{
+    max-width: 1388px;
+    margin: auto;
+}
+.Why-rely-section{
+    background-image: url(../images/relybg.jpg);
+}
+.icon-and-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.icon-text h4{
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.icon-text p{
+    font-size: 20px;
+    color: #000000;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.icon-text{
+    margin-left: 30px;
+}
+.icon-and-text i{
+    flex-shrink: 0;
+}
+.Why-rely-section h3{
+    margin-bottom: 100px;
 }
 @media only screen and (min-width:1400px){
     
