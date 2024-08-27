@@ -262,6 +262,9 @@ body{
 .Why-rely-section h3{
     margin-bottom: 100px;
 }
+.testimonial-text i{
+    display: inline-block;
+}
 @media only screen and (min-width:1400px){
     
 }   
