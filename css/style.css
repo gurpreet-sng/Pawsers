@@ -62,10 +62,29 @@ body{
 .banner-section-wrapper{
     background-color: #3AB787;
     padding: 20px 0px 0px;
-    
+    position: relative;
+}
+.banner-section-wrapper:before{
+    content: "";
+    width: 87px;
+    height: 99px;
+    background-image: url("../images/arrow-down.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
+.btn.btn-style{
+    background-color: #FFDA00;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 18px 40px;
 }
 .banner-image{
-    margin-bottom: -80px;
+    margin-bottom: -110px;
+    text-align: center;
 }
 .banner-content h1{
     font-family: "Fredoka", sans-serif;
@@ -76,7 +95,18 @@ body{
     margin-bottom: 30px;
 }
 .banner-content{
-    padding: 60px 0px;
+    padding: 100px 0px;
+    position: relative;
+}
+.banner-content:before{
+    content: "";
+    width: 162px;
+    height: 167px;
+    background-image: url(../images/spirral-arrow.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
 }
 .banner-content .nav-link{
     border-radius: 0px;
@@ -133,4 +163,65 @@ body{
 }
 .margin-bottom{
     margin-bottom: 20px;
+}
+.dog-image-holder{
+    position: relative;
+}
+.banner-image{
+    position: absolute;
+    bottom: 0px;
+    top: auto;
+    left: 0;
+    right: 0;
+}
+.space-top-bottom-100{
+    padding: 100px 0px
+}
+.section-content i{
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.section-content h3{
+    font-size: 80px;
+    color: #000000;
+    line-height: 90px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.section-content p{
+    font-size: 18px;
+    color: #2E3031;
+    line-height: 32px;
+}
+.learn-more{
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+}
+.space-top-150{
+    padding-top: 150px !important;
+}
+.space-top-50{
+    padding-top: 50px !important;
+}
+.providing-superior-pet-section{
+    position: relative;
+}
+.providing-superior-pet-section::before{
+    content: "";
+    width: 231px;
+    height: 403px;
+    background-image: url(../images/wings.png);
+    position: absolute;
+    top: -80px;
+}
+@media only screen and (min-width:1400px){
+    
+}   
+@media only screen and (max-width:1400px){
+
+    .banner-image {
+        margin-bottom: -83px;
+    }
 }
