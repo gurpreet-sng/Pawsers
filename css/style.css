@@ -265,6 +265,18 @@ body{
 .testimonial-text i{
     display: inline-block;
 }
+.stars{
+    width: 113px;
+}
+.testimonial-text p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 10px;
+}
+.branslogos{
+    width: 393px;
+}
 @media only screen and (min-width:1400px){
     
 }   
