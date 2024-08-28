@@ -471,6 +471,56 @@ body{
     right: 400px;
     bottom: -50px;
 }
+.footer-section-wrapper h3{
+    text-align: center;
+    font-size: 42px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+.footer-section-wrapper .btn.btn-style{
+    margin-top: 0px;
+    line-height: 18px;
+}
+.footer-contact-info a{
+    text-decoration: none;
+    color: #2E3031;
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer-contact-info{
+    margin-top: 60px;
+}
+.footer-contact-info .btn.btn-style{
+    position: relative;
+}
+.footer-contact-info .btn.btn-style:before{
+    content: "";
+    width: 50px;
+    height: 61px;
+    background-image: url("../images/button-icon.png");
+    position: absolute;
+    right: -40px;
+    top: -35px;
+}
+.footer-bottom ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-bottom ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.footer-bottom a{
+    font-size: 16px;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 80px;
+}
 @media only screen and (min-width:1400px){
     
 }   
