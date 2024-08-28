@@ -565,6 +565,10 @@ form label {
     padding: 18px 30px;
     margin-left: 20px;
 }
+.time-and-button .btn.btn-style:hover{
+    background-color: #FFD100;
+    color: #000000;
+}
 .time-and-button small{
     font-size: 20px;
 }
@@ -574,6 +578,10 @@ form label {
     font-weight: 400;
     border-radius: 20px;
     line-height: 18px;
+}
+.filter-form .btn.btn-style:hover{
+    background-color: #FFD100;
+    color: #000000;
 }
 @media only screen and (min-width:1400px){
     
