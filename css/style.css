@@ -277,6 +277,54 @@ body{
 .branslogos{
     width: 393px;
 }
+.clients-testimonial {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px #dddddd;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 30px 30px 0px;
+}
+.clients-testimonial{
+    position: relative;
+}
+.clients-testimonial:before{
+    content: "";
+    background-image: url("../images/woof.png");
+    background-repeat: no-repeat;
+    width: 131px;
+    height: 87px;
+    position: absolute;
+    right: -15px;
+    top: -10px;
+}
+.clients-say{
+    position: relative;
+}
+.clients-say .owl-prev{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 0px;
+    right: auto;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-image: url(../images/a-left.png) !important;
+}   
+.clients-say .owl-next{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: auto;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-image: url(../images/a-right.png) !important;
+}
+.clients-say .owl-prev span,.clients-say .owl-next span{
+    font-size: 0px;
+}
 @media only screen and (min-width:1400px){
     
 }   
