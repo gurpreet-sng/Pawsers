@@ -401,6 +401,76 @@ body{
     font-weight: 700;
     text-decoration: none;
 }
+.footer-social{
+    text-align: right;
+}
+.footer-social ul{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-social ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.footer-social ul li a{
+    color: #000000;
+    font-size: 25px;
+}
+.footer-section-wrapper{
+    background-color:#efffe9;
+    padding: 40px 0px;
+    margin-top: 60px;
+}
+.footer-section-wrapper .border-sec{
+    border-bottom: 1px solid #c6d4c1;
+}
+.footer-logo{
+    margin-bottom: 20px;
+}
+.footer-menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #2E3031;
+    font-weight: 700;
+}
+.footer-menu{
+    text-align: right;
+}
+.footer-p{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.row.align-items-center.border-sec{
+    position: relative;
+}
+.arrow-top{
+    position: absolute;
+    width: 59px;
+    height: 34px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    bottom: -18px;
+}
+.border-sec:before{
+    content: '';
+    width: 136px;
+    height: 119px;
+    background-image: url(../images/spiral.png);
+    position: absolute;
+    right: 400px;
+    bottom: -50px;
+}
 @media only screen and (min-width:1400px){
     
 }   
