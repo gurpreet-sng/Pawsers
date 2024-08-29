@@ -18,7 +18,7 @@
     <header id="header">
         <div class="spaceleft-right">
             <nav class="navbar navbar-expand-md navbar-dark">
-                <div class="container-fluid">
+                <div class="container">
                     <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -57,7 +57,7 @@
     </header>
     <div class="banner-section-wrapper">
         <div class="spaceleft-right-10">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="banner-content">
@@ -161,16 +161,16 @@
     </div>
     <div class="Happy-pets-section space-top-bottom-100 space-top-150">
         <div class="spaceleft-right">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
-                        <div class="girl-dog">
+                        <div class="girl-dog text-center">
                             <img src="images/girl.png" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
                          <div class="section-content text-center">
-                            <i><img src="images/bunny.png"></i>
+                            <i><img src="images/bunny.png" class="img-fluid"></i>
                             <h3>Happy pets,
                                 happy humans</h3>
                             <p>At Pawsers, we understand that pets are more than just animals - they're beloved members of your family. We're here to provide the very best care for your furry friends, be they frisky felines or playful pups. Our friendly, professional team is dedicated to ensuring your pets are happy, healthy, and well looked after</p>
@@ -460,7 +460,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <div class="faq-img"><img src="images/faq.png" class="img-fluid"></div>
+                    <div class="faq-img text-center"><img src="images/faq.png" class="img-fluid"></div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="location faq-text text-start">
@@ -562,7 +562,23 @@
                     nav:true,
                     autoplay:true,
                     autoplayTimeout:2000,
-                    autoplayHoverPause:true
+                    autoplayHoverPause:true,
+                    responsive:{
+                        0:{
+                                items:1,
+                                nav:true
+                            },
+                            600:{
+                                items:3,
+                                nav:false
+                            },
+                            1000:{
+                                items:4,
+                                nav:true,
+                                loop:false
+                            }
+                    }
+                    
                 });
 
                 $('.owl-two').owlCarousel({
@@ -582,7 +598,22 @@
                     nav:true,
                     autoplay:true,
                     autoplayTimeout:2000,
-                    autoplayHoverPause:true
+                    autoplayHoverPause:true,
+                    responsive:{
+                        0:{
+                                items:2,
+                                nav:true
+                            },
+                            600:{
+                                items:3,
+                                nav:false
+                            },
+                            1000:{
+                                items:4,
+                                nav:true,
+                                loop:false
+                            }
+                    }
                 });
                 
                 $('.play').on('click',function(){
