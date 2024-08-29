@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pawsers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="spaceleft-right">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-buttons">
+                        <ul>
+                            <li><a href="#"><i><img src="images/bag.png" alt="cart"></i></a></li>
+                            <li><a href="#"><i><img src="images/heart.png" alt="like"></i><span>0</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="banner-section-wrapper shop-banner inner-page-banner">
+        <div class="spaceleft-right-10">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="banner-content">
+                        <h1>Shop</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="product-filter-section">
+        <div class="overlay" style="display:none"></div>
+        <div class="search-section space-top-150">
+            <div class="container">
+                <div class="row main-content ml-md-0">
+                    <div class="sidebar col-lg-3 col-md-4">
+                        <div class="sidebar__inner ">
+                            <div class="filter-body">
+                                <div>
+                                    <div class="filter-link-box">
+                                        <div class="search-style">
+                                            <input type="text" class="form-control" placeholder="Search">
+                                            <button type="submit"><i><img src="images/glass.png"></i></button>
+                                        </div>
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Category
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <div class="mb-30 filter-options">
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Indoor" checked>
+                                                            <label class="custom-control-label" for="Indoor">Pet's Toys</label>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Outdoor">
+                                                            <label class="custom-control-label" for="Outdoor">Dry Foods</label>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Outdoor">
+                                                            <label class="custom-control-label" for="Outdoor">Wet Foods</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-link-box">
+                                        <!--seating option end-->
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Availability
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapsetwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <div class="mb-3 filter-options" id="cusine-options">
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Chinese" checked>
+                                                            <label class="custom-control-label" for="Chinese">In stock (7)</label>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Italian">
+                                                            <label class="custom-control-label" for="Italian">Out of  stock (1)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-link-box">
+                                        <!-- cusine filters end -->
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Price
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapsethree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <div class="mb-3 theme-clr xs2-font d-flex justify-content-between">
+                                                        <span id="slider-range-value1">$100</span>
+                                                        <span id="slider-range-value2">$10,000</span>
+                                                    </div>
+                                                    <div class="mb-30 filter-options">
+                                                        <div>
+                                                            <div id="slider-range">
+                                                                <form class="form-style">
+                                                                    <div class="form-group">
+                                                                        <input type="range" class="form-control-range" id="">
+                                                                    </div>
+                                                                    <div class="row from-to">
+                                                                        <div class="col-6">
+                                                                            <label class="form-label">From $</label>
+                                                                            <input type="text" placeholder="7.00" class="form-control">
+                                                                        </div>
+                                                                        <div class="col-6">
+                                                                            <label class="form-label">To $</label>
+                                                                            <input type="text" placeholder="300.00" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-link-box">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Shop By Brand
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <div class="mb-3 filter-options" id="services-options">
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Breakfast" checked>
+                                                            <label class="custom-control-label" for="Breakfast">Brand 1</label>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Lunch">
+                                                            <label class="custom-control-label" for="Lunch">Brand 2</label>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Donner">
+                                                            <label class="custom-control-label" for="Donner">Brand 3</label>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Cafe">
+                                                            <label class="custom-control-label" for="Cafe">Brand 4</label>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="Brunch">
+                                                            <label class="custom-control-label" for="Brunch">Brand 5</label>
+                                                        </div>
+                                                        <div class="custom-control custom-checkbox mb-3">
+                                                            <input type="checkbox" class="custom-control-input" id="other">
+                                                            <label class="custom-control-label" for="other">Brand 6</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-link-box">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                              <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    New Arrivals
+                                                </button>
+                                              </h2>
+                                              <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <div class="new-arrivals-sidebar">
+                                                        <div class="row margin-bottom-20">
+                                                            <div class="col-5">
+                                                                <div class="arrivals-img">
+                                                                    <img src="images/new-arrival.png" class="img-fluid">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-7">
+                                                                <h6>Multi Grain Blends</h6>
+                                                                <p>$10.40 - $10.60</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-5">
+                                                                <div class="arrivals-img">
+                                                                    <img src="images/new-arrival.png" class="img-fluid">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-7">
+                                                                <h6>Multi Grain Blends</h6>
+                                                                <p>$10.40 - $10.60</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content col-lg-9 col-md-8">
+                        <div class="d-flex justify-content-between border-bottom align-items-center product-section-header">
+                            <h2 class="products-page-title">Products</h2>
+
+                            <div class="row justify-content-center colsettings">
+                                <div class="col-lg-3 border-sec-style col-4">
+                                    <a href="javascript:void(0)" onclick="grid_view(2)">
+                                        <img src="https://tbjhaircreations.com/images/ic-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 border-sec-style col-4">
+                                    <a href="javascript:void(0)" onclick="grid_view(3)">
+                                        <img src="https://tbjhaircreations.com/images/ic-2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 border-sec-style col-4">
+                                    <a href="javascript:void(0)" onclick="grid_view(4)">
+                                        <img src="https://tbjhaircreations.com/images/ic-3.png" alt="">
+                                    </a>
+                                </div> 
+                            </div>
+
+                            <div class="filters-actions">
+                                <form class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                        <label for="inputPassword2" class="">Sort by</label>
+                                    </div>
+                                    <div class="col-auto">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Featured</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </div>
+                        <div class="row row-grid">
+                            <div class="col-md-4 dis-view">
+                                <a href="product.html" class="product-box">
+                                    <div class="product-image">
+                                        <img src="images/toy.png" class="img-fluid">
+                                    </div>
+                                    <h6>Colorful Woolen Toy</h6>
+                                    <p>$3.85 - $4.40</p>
+                                </a>
+                            </div>
+                            <!--col-end-->
+                            <div class="col-md-4 dis-view">
+                                <a href="product.html" class="product-box">
+                                    <div class="product-image">
+                                        <img src="images/tunnel.png" class="img-fluid">
+                                    </div>
+                                    <h6>Dog Training Tunnel</h6>
+                                    <p>$15.10 - $15.50</p>
+                                </a>
+                            </div>
+                            <!--col-end-->
+                            <div class="col-md-4 dis-view">
+                                <a href="product.html" class="product-box">
+                                    <div class="product-image">
+                                        <img src="images/rubber.png" class="img-fluid">
+                                    </div>
+                                    <h6>Natural Rubber Dog</h6>
+                                    <p>$9.80 - $10.40</p>
+                                </a>
+                            </div>
+                            <!--col-end-->
+                            <div class="col-md-4 dis-view">
+                                <a href="product.html" class="product-box">
+                                    <div class="product-image">
+                                        <img src="images/tuna.png" class="img-fluid">
+                                    </div>
+                                    <h6>Tuna Flavor Dog Food</h6>
+                                    <p>$8.10 - $8.85</p>
+                                </a>
+                            </div>
+                            <!--col-end-->
+                            <div class="col-md-4 dis-view">
+                                <a href="product.html" class="product-box">
+                                    <div class="product-image">
+                                        <img src="images/butterscotch.png" class="img-fluid">
+                                    </div>
+                                    <h6>Butterscotch Pet Food</h6>
+                                    <p>$11.40 - $11.60</p>
+                                </a>
+                            </div>
+                            <!--col-end-->
+                            <div class="col-md-4 dis-view">
+                                <a href="product.html" class="product-box">
+                                    <div class="product-image">
+                                        <img src="images/fruit-berry.png" class="img-fluid">
+                                    </div>
+                                    <h6>Fruit &amp; Berry Bird Food</h6>
+                                    <p>$9.30 - $9.40</p>
+                                </a>
+                            </div>
+                            <!--col-end-->
+                            <div class="col-md-4 dis-view">
+                                <a href="product.html" class="product-box">
+                                    <div class="product-image">
+                                        <img src="images/multi-grain.png" class="img-fluid">
+                                    </div>
+                                    <h6>Multi Grain Blends</h6>
+                                    <p>$10.40 - $10.60</p>
+                                </a>
+                            </div>
+                            <!--col-end-->
+                            <div class="col-md-4 dis-view">
+                                <a href="product.html" class="product-box">
+                                    <div class="product-image">
+                                        <img src="images/soft-round.png" class="img-fluid">
+                                    </div>
+                                    <h6>Soft Round Shape Bed</h6>
+                                    <p>$25.10 - $25.40</p>
+                                </a>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="instagram-section">
+        <div class="container">
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-4bd9628c-3c7e-4c58-8463-4d764d2358e0" data-elfsight-app-lazy></div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer-section-wrapper">
+            <div class="container">
+                <div class="row align-items-center border-sec">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="footer-logo"><a href="index.html"><img src="images/logo.png" class="img-fluid"></a></div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="footer-social">
+                            <ul>
+                                <li><a href="https://www.instagram.com/pawserspetcare/"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="arrow-top"><a href="#header"><img src="images/arrow-top.png"></a></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12">
+                        <p class="footer-p">Join the Pawsers family today, and let us take care of your pet's needs with a touch of playfulness and a whole lot of love!
+                        </p>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Locations</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <h3>Are you ready to get<br> started?</h3>
+                <div class="footer-contact-info">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12 text-center">
+                            <a href="mailto:Info@pawserspetcare.com">Info@pawserspetcare.com</a>
+                        </div>
+                        <div class="col-lg-4 col-md-12 text-center">
+                            <a class="btn btn-style" href="#" role="button">Book now</a>
+                        </div>
+                        <div class="col-lg-4 col-md-12 text-center">
+                            <a href="tel:+966 50 876 7671">+966 50 876 7671</a>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>Copyright © 2024 Pawsers Pet Care. All rights reserved.</p>
+                        <ul>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+            crossorigin="anonymous"></script>
+            
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function(){
+                $('.owl-one').owlCarousel({
+                    stagePadding: 100,
+                    items:4,
+                    loop:true,
+                    margin:50,
+                    nav:true,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true
+                });
+
+                $('.owl-two').owlCarousel({
+                    items:1,
+                    loop:true,
+                    margin:10,
+                    nav:true,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true
+                });
+
+                $('.owl-three').owlCarousel({
+                    items:4,
+                    loop:true,
+                    margin:30,
+                    nav:true,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true
+                });
+                
+                $('.play').on('click',function(){
+                    owl.trigger('play.owl.autoplay',[1000])
+                })
+                $('.stop').on('click',function(){
+                    owl.trigger('stop.owl.autoplay')
+                })
+            
+              });
+
+
+        function grid_view(no){
+            if(no == 2){
+                $('.dis-view').removeClass('col-md-4');
+                $('.dis-view').removeClass('col-md-3');
+                $('.dis-view').addClass('col-md-6');
+            } else if(no == 3){
+                $('.dis-view').removeClass('col-md-6');
+                $('.dis-view').removeClass('col-md-3');
+                $('.dis-view').addClass('col-md-4');
+            } else if(no == 4){
+                $('.dis-view').removeClass('col-md-6');
+                $('.dis-view').removeClass('col-md-4');
+                $('.dis-view').addClass('col-md-3');
+            } else {
+                $('.dis-view').removeClass('col-md-6');
+                $('.dis-view').removeClass('col-md-3');
+                $('.dis-view').addClass('col-md-4');
+            }           
+        }
+        </script>
+    </footer>
+</body>
+
+</html>
