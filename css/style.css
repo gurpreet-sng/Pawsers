@@ -727,10 +727,16 @@ form label {
 }
 .inner-page-title {
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .inner-page-title h3 {
     text-transform: uppercase;
     font-weight: 700;
+    color: #000;
+    font-family: "Fredoka", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    text-transform: capitalize;
 }
 .inner-page-title a {
     text-decoration: none;
@@ -758,6 +764,285 @@ form label {
 }
 .img-selection {
     margin-top: 20px;
+}
+.img-selection {
+    width: 100%;
+    position: static;
+    display: flex;
+}
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+.img-selection .img-thumbnail {
+    margin-right: 10px;
+}
+.img-thumbnail.selected {
+    opacity: 1;
+    border-color: #3AB787;
+}
+.img-thumbnail {
+    margin-top: 10px !important;
+    width: 79%;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: .3s ease;
+    opacity: .5;
+    border-radius: 30px;
+}
+.display-img {
+    width: 100%;
+}
+.product-title {
+    margin-bottom: 30px;
+}
+.dt-name {
+    color: #000;
+    font-family: "Fredoka", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.dt-fl {
+    color: #000;
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.dt-tex {
+    color: #484848;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.dt-tex span {
+    display: inline-block;
+    width: 150px;
+}
+.dt-tex i {
+    color: #4F8A10 !important;
+    font-style: normal;
+}
+.dt-tex .btn {
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin: 0px 5px;
+}
+.dt-fl-qty {
+    color: #1C1E1E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 5px 0px;
+    font-family: "Fredoka", sans-serif;
+}
+.qty-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 50px;
+    overflow: hidden;
+}
+button.qty-btn-minus.btn-light, button.qty-btn-plus.btn-light {
+    background: #000000;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    border: 0;
+}
+.qty-container input.input-qty {
+    border: 1px solid #D9D9D9;
+    background: #F9F9F9;
+    width: 85px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
+button.qty-btn-minus.btn-light:hover, button.qty-btn-plus.btn-light:hover {
+    background: #3AB787;
+}
+.add-cart-btn {
+    text-align: center;
+    padding: 14px 150px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #000000;
+    border-radius: 50px;
+    display: inline-block;
+}
+.buy-now-btn {
+    border-radius: 50px;
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    padding: 14px 170px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.buy-now-btn:hover {
+    color: #000;
+    background: #3AB787;
+}
+.add-cart-btn:hover {
+    color: #000;
+    background: #3AB787;
+}
+.big-img img.zoom {
+    position: absolute;
+    transition: width 0.2s ease-out, opacity 0.2s ease-out 0.2s;
+}
+.accordion-style{
+    margin: 100px 0px 60px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #D0F9FF !important;
+}
+.accordion-button {
+    border-radius: 0px !important;
+    font-size: 30px;
+    color: #1A1A1A !important;
+}
+.accordion-item {
+    border-radius: 0px !important;
+}
+.accordion-style h5 {
+    font-size: 26px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.accordion-style h6 {
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.imageholder {
+    margin: 20px 0px;
+}
+.section-title h3 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 40px;
+    line-height: 42px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.recommended-products-section .section-title{
+    margin-bottom: 40px;
+}
+.view-all-button .btn.btn-style{
+    margin-top: 0px;
+}
+.recommended-products-section{
+    padding-bottom: 60px;
+}
+header{
+    box-shadow: 0px 0px 10px #dddddd;
+}
+.Add-cart{
+   margin-bottom: 8px;
+}
+.btn.btn-style.green-button{
+    background-color: #3AB787;
+    color: #ffffff;
+    border-radius: 20px;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform:uppercase;
+}
+.btn.btn-style.green-button:hover{
+    background-color: #000000;
+}
+.happy-clients-no{
+    background-color: #EEFFE8;
+    padding: 0px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 240px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.happy-clients-box {
+    position: relative;
+}
+.happy-clients-no h3 {
+    color: #000000;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-family: "Laila", serif;
+}
+.happy-clients-no hr {
+    width: 130px;
+    margin-bottom: 15px;
+}
+.we-love-text {
+    margin-left: 40px;
+}
+.btn.shortbtn.shortbtn-white {
+    background-color: #EEFFE8;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.btn.shortbtn {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    text-transform: uppercase;
+    padding: 5px 22px;
+}
+.btn.shortbtn.shortbtn-white i{
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+.we-love-text h3 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Fredoka", sans-serif;
+}
+.we-love-text p {
+    font-size: 18px;
+    color: #616161;
+    margin: 30px 0px;
+    line-height: 38px;
+}
+.happy-clients-no h3 span {
+    color: #3AB787;
+}
+.green-box-text{
+    background-color: #3AB787;
+    padding: 30px 0px;
+}
+.green-box-text{
+    border-radius: 30px;
 }
 @media only screen and (min-width:1400px){
     
@@ -934,6 +1219,21 @@ form label {
 }
 @media only screen and (max-width:767px){
 
+    .product-related-content{
+        margin-top: 40px;
+    }
+    .accordion-button{
+        font-size: 24px;
+    }
+    .accordion-style h5{
+        font-size: 23px;
+    }
+    .add-cart-btn{
+        display: block;
+    }
+    .buy-now-btn{
+        display: block;
+    }
     .d-flex.product-section-header{
         flex-direction: column !important;
     }
@@ -991,9 +1291,36 @@ form label {
     .icon-text h4{
         font-size: 30px;
     }
+    .dt-name{
+        font-size: 30px;
+    }
+    .inner-page-title h3{
+        font-size: 30px;
+    }
+    .img-thumbnail{
+        border-radius: 10px;
+    }
+    .accordion-style {
+        margin: 60px 0px 60px;
+    }
 }
 @media only screen and (max-width:575px){
 
+    .accordion-style {
+        margin: 40px 0px 40px;
+    }
+    .product-box{
+        margin-bottom: 40px;
+    }
+    .add-cart-btn, .buy-now-btn{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .dt-tex span {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
     .banner-image{
         width: 270px;
         margin: auto auto -34px auto;
