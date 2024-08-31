@@ -941,7 +941,7 @@ button.qty-btn-minus.btn-light:hover, button.qty-btn-plus.btn-light:hover {
     font-size: 40px;
     line-height: 42px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 .recommended-products-section .section-title{
@@ -1023,8 +1023,8 @@ header{
     top: -1px;
 }
 .we-love-text h3 {
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 55px;
+    font-weight: 600;
     color: #000000;
     font-family: "Fredoka", sans-serif;
 }
@@ -1039,10 +1039,104 @@ header{
 }
 .green-box-text{
     background-color: #3AB787;
-    padding: 30px 0px;
-}
-.green-box-text{
+    padding: 80px 0px;
     border-radius: 30px;
+    position: relative;
+}
+.green-box-text h3{
+    font-size: 60px;
+    color: #ffffff;
+    font-family: "Fredoka", sans-serif;
+    margin-bottom: 20px;
+}
+.green-box-text p{
+    font-size: 22px;
+    color: #ffffff;
+    font-family: "Fredoka", sans-serif;
+    width: 80%;
+    margin: auto;
+}
+.pegion-image{
+    display: inline-block;
+    position: absolute;
+    top: -190px;
+    right: -75px;
+    width: 500px;
+}
+.pegion-image img{
+    width: 100%;
+}
+.love-to-care-section.our-story-section .we-love-text{
+    margin-left: 0px;
+}
+.love-to-care-section.our-story-section .we-love-text p{
+    margin-bottom: 0px;
+}
+.love-to-care-section.our-story-section{
+    padding-top: 100px;
+}
+.our-passion-section{
+    background-image: url("../images/cat-bg.png");
+    background-size: cover;
+    border-radius: 30px;
+    padding: 60px 0px;
+    position: relative;
+}
+.our-passion-section .we-love-text{
+    margin-left: 0px;
+    padding-right: 30px;
+}
+.our-passion-section  .we-love-text p{
+    margin-top: 0px;
+    color: #ffffff;
+}
+.our-passion-section  .we-love-text h3{
+    color: #ffffff;
+    font-weight: 500;
+}
+.ratimage {
+    position: absolute;
+    top: -186px;
+    right: 0;
+}
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+.feature-box i {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.feature-box-text h6 {
+    font-family: "Laila", serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #00000;
+}
+.feature-box-text p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 0px;
+    line-height: 26px;
+}
+.feature-box {
+    display: flex;
+}
+.happy-with-us-section .section-title {
+    width: 70%;
+    margin: auto auto 80px;
+}
+.happy-with-us-section .section-title h3{
+    margin-bottom: 30px;
+}
+.our-promise-section{
+    background-image: url("../images/passion-bg.png");
+    background-size: cover;
+    border-radius: 30px;
+    padding: 60px 0px;
+    position: relative;
+}
+.our-promise-section p{
+    color: #000000;
 }
 @media only screen and (min-width:1400px){
     
@@ -1092,6 +1186,11 @@ header{
     }
     .form-select{
         font-size: 14px;
+    }
+    .pegion-image {
+        top: -140px;
+        right: -20px;
+        width: 430px;
     }
 }
 @media only screen and (max-width:1024px){
