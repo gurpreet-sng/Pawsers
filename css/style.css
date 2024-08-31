@@ -725,6 +725,40 @@ form label {
 .footer-logo a {
     display: inline-block;
 }
+.inner-page-title {
+    margin-bottom: 50px;
+}
+.inner-page-title h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.inner-page-title a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.inner-page-title i{
+    margin: 0px 10px;
+    color: #000000;
+    font-size: 16px;
+}
+.big-img{
+    position: relative;
+    width: auto !important;
+    height: auto;
+    border: 1px solid #ddd;
+    cursor: zoom-in;
+    overflow: hidden;
+    margin-left: 0px;
+    background: #EEEEEE;
+    border-radius: 30px;
+}
+.display-img {
+    width: 100%;
+}
+.img-selection {
+    margin-top: 20px;
+}
 @media only screen and (min-width:1400px){
     
 }
