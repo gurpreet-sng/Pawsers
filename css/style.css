@@ -10,6 +10,9 @@ body{
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+.banner-content.create-profile-page.day-care-profile:before{
+    display: none;
+}
 .day-care-select-fields .tab-field{
     padding: 0px 0px;
 }
@@ -1310,6 +1313,12 @@ textarea.form-control.field-style {
 .banner-section-wrapper.create-profile-wrapper:before{
     display: none;
 }
+.banner-section-wrapper.training-profile .tab-field .form-label{
+    width: 300px;
+}
+.banner-section-wrapper.day-boarding-profile .tab-field .form-label{
+    width: 300px;
+}
 @media only screen and (min-width:1400px){
 
     
@@ -1330,7 +1339,7 @@ textarea.form-control.field-style {
 @media only screen and (max-width:1400px){
 
     .banner-content.create-profile-page:before{
-        right: -100px;
+        right: -50px;
     }
     .form-label{
         font-size: 16px;
@@ -1377,6 +1386,12 @@ textarea.form-control.field-style {
         right: -20px;
         width: 430px;
     }
+    .banner-content.create-profile-page:before{
+        display: none;
+    }
+    .banner-section-wrapper.day-boarding-profile .tab-field .form-label {
+        width: auto;
+    }
 }
 @media only screen and (max-width:1024px){
 
@@ -1411,6 +1426,9 @@ textarea.form-control.field-style {
 }
 @media only screen and (max-width:991px){
 
+    .banner-section-wrapper.day-boarding-profile .tab-field .form-label {
+        width: auto;
+    }
     .banner-image{
         position: static;
     }
@@ -1551,7 +1569,11 @@ textarea.form-control.field-style {
     }
 }
 @media only screen and (max-width:767px){
-
+    
+    .form-control.height-auto{
+        height: 18px;
+        width: 18px;
+    }
     .product-related-content{
         margin-top: 40px;
     }
@@ -1606,6 +1628,12 @@ textarea.form-control.field-style {
     .tab-field {
         margin-bottom: 20px;
     }
+    .day-care-profile .tab-field{
+        margin-bottom: 0px;
+    }
+    .day-boarding-profile .tab-field{
+        margin-bottom: 0px;
+    }   
     .section-content h3{
         font-size: 40px;
         line-height: 50px;
