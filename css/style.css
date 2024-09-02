@@ -1319,6 +1319,9 @@ textarea.form-control.field-style {
 .banner-section-wrapper.day-boarding-profile .tab-field .form-label{
     width: 300px;
 }
+.day-boarding-profile .banner-content.create-profile-page:before{
+    display: none;    
+}
 @media only screen and (min-width:1400px){
 
     
