@@ -1421,7 +1421,6 @@ textarea.form-control.field-style {
     color: #9B9B9B;
     padding: 10px 20px;
     font-size: 18px;
-    line-height: 20px;
     margin-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -1435,14 +1434,12 @@ textarea.form-control.field-style {
     padding: 10px 20px;
     margin-bottom: 10px;
     font-size: 18px;
-    line-height: 20px;
 }
 .btn.btn-success{
     background-color: #3AB787;
     padding: 10px 20px;
     margin-bottom: 10px;
     font-size: 18px;
-    line-height: 20px;
 }
 .appointment-list-sidebar .list-group-item{
     flex-direction: column;
