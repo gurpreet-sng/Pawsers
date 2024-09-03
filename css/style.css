@@ -2077,4 +2077,7 @@ textarea.form-control.field-style {
         padding: 8px;
         font-size: 15px;
     }
+    .time-and-button .btn.btn-style{
+        margin-left: 0px;
+    }
 }
