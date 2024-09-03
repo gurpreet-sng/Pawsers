@@ -6,6 +6,9 @@ body{
 .margin-zero{
     margin: 0px !important;
 }
+.aed{
+    margin-bottom: 0px;
+}
 .padding-left-right-zero{
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -1322,6 +1325,131 @@ textarea.form-control.field-style {
 .day-boarding-profile .banner-content.create-profile-page:before{
     display: none;    
 }
+.list-group.appointment-list .list-group-item{
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+}
+.appointment-list{
+
+}
+.service-name{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.service-time{
+    font-size: 20px;
+    color: #a7a7a7;
+}
+.minutes{
+    color: #a7a7a7;
+    text-align: right;
+}
+.aed{
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.aed i{
+    color: red;
+}
+.user-images-list ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.user-images-list ul{
+    margin: 0px;
+    padding: 0px;
+}
+.userimg{
+    width: 77px;
+    height: 77px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+.userimg img{
+    width: 100%;
+}
+.user-images-list ul li a{
+    text-align: center;
+    text-decoration: none;
+}
+.user-images-list ul li a h6{
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #000000;
+}
+.user-images-list ul li.active a h6{
+    color: #E00706;
+}
+.user-images-list ul li.active .userimg{
+    border:2px solid #E00706;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.card-header{
+    background-color: transparent;
+}
+.card-style{
+    border: 2px solid #000000;
+}
+.card-header h6{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+}
+.card-body ul li{
+    list-style: none;
+    display: inline-block;
+}
+.card-body ul{
+    margin: 0px;
+    padding: 0px;
+}
+.btn.btn-light{
+    background-color: #EAEAEA;
+    color: #9B9B9B;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+.btn.btn-outline{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: transparent;
+    color: #000000;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.btn.btn-success{
+    background-color: #3AB787;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.appointment-list-sidebar .list-group-item{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.appointment-list-sidebar .list-group-item .btn.btn-style{
+    margin-top: 0px;
+    line-height: 20px;
+    width: 100%;
+}
 @media only screen and (min-width:1400px){
 
     
@@ -1891,5 +2019,18 @@ textarea.form-control.field-style {
     .create-profile-button .btn.btn-style{
         margin: 40px 0px 30px;
     }
-    
+    .list-group-item .d-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .minutes{
+        text-align: center;
+    }
+    .service-time{
+        font-size: 16px;
+        text-align: center;
+    }
+    .aed{
+        font-size: 16px;
+    }
 }
