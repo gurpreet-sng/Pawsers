@@ -1841,6 +1841,18 @@ textarea.form-control.field-style {
     .banner-content.create-profile-page .tab-content{
         padding: 20px 10px;
     }
+    .btn.btn-light{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .btn.btn-outline{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .btn.btn-success{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
 }
 @media only screen and (max-width:575px){
 
@@ -2036,5 +2048,17 @@ textarea.form-control.field-style {
     }
     .aed{
         font-size: 16px;
+    }
+    .btn.btn-light{
+        padding: 8px;
+        font-size: 15px;
+    }
+    .btn.btn-outline{
+        padding: 8px;
+        font-size: 15px;
+    }
+    .btn.btn-success{
+        padding: 8px;
+        font-size: 15px;
     }
 }
