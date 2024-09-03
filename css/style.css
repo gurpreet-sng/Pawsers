@@ -9,6 +9,10 @@ body{
 .aed{
     margin-bottom: 0px;
 }
+.table td{
+    vertical-align: middle;
+}
+
 .padding-left-right-zero{
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -1522,6 +1526,9 @@ textarea.form-control.field-style {
     }
     .banner-section-wrapper.day-boarding-profile .tab-field .form-label {
         width: auto;
+    }
+    .book-appointment-two .table{
+        width: 1000px;
     }
 }
 @media only screen and (max-width:1024px){
